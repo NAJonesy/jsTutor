@@ -1,0 +1,26 @@
+body{
+    background: #999;
+}
+
+a{
+    color: green;
+}
+
+p{
+    background: #666;
+    color:white;
+    padding: 10px 10px 0px 0px; 
+}
+.secondary{
+    background: white;
+    color:black;
+}
+
+#special{
+    color: red;
+    background: black;
+}
+
+.padded{
+    padding: 5px 10px 5px 10px;
+}
