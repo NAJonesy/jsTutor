@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+    <title>To Do List</title>
+    <link href="styles/todoListStyles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>Simple To Do List using JavaScript</h1>
+    </header>
+    <main>
+        <ul id="checklist">
+            <li>
+                <span>Item 1</span>
+                <input value="Item 1" />
+            </li>
+            <li>
+                <span>Item 2</span>
+                <input value="Item 2" />
+            </li>
+            <li>
+                <span>Item 3</span>
+                <input value="Item 3" />
+            </li>
+        </ul>
+        <button type="button" id="addItem" onclick="addLi()">Add Item</button>
+        <button type="button" id="mksentence" onclick="makeSentence()">Make Sentence</button>
+        <button type="button" id="removeItem" onclick="deleteItem()">Remove Item</button>
+        <br>
+        <p id="output" class="edit"></p>
+    </main>
+    <script src="scripts/todoList.js"></script>
+</body>
+
+</html>
